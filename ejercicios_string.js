@@ -27,7 +27,7 @@ function contarEspacios(texto){
 
  const tweets = [
  'Total de casos desde el comienzo de la pandemia en toda la provincia asciende a 243.',
- 'El intendente aseguro que Rosario esta en condiciones de en uno o dos días flexibilizar algunos sectores.',
+ 'El intendente aseguro que Rosario esta en condiciones de en uno o dos dias flexibilizar algunos sectores.',
  'Rosario sumo una nueva jornada sin registrar nuevos casos de coronavirus.']
 
 console.log(buscarTweets(tweets,'Rosario'))
