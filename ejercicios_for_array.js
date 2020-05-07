@@ -4,7 +4,6 @@ function imprimirNumeros(numero){
   for (i=1;i<=numero;i++){
   	console.log(i)
   }
-
 }
 
 imprimirNumeros(3)
@@ -49,14 +48,14 @@ console.log(multiplicar([1,4,12]))
 // 3
 
 function calcularPromedio(lista){
-	let suma=0
-    for (i=0;i<lista.length;i++){
- 		suma = suma+lista[i]
-
-    }
-    const promedio=suma/lista.length
-
-	return promedio
+  let suma=0
+  for (i=0;i<lista.length;i++){
+    suma = suma+lista[i]
+  }
+  
+  const promedio=suma/lista.length
+  
+  return promedio
 }
 
 console.log(calcularPromedio([10,6,8]))
