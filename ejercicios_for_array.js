@@ -7,7 +7,7 @@ function imprimirNumeros(numero){
 
 }
 
-// console.log(imprimirNumeros(3))
+imprimirNumeros(3)
 
 // 2
 function imprimirOtrosNumeros(numero1,numero2){
@@ -20,7 +20,7 @@ function imprimirOtrosNumeros(numero1,numero2){
     }
 }
 
-// console.log(imprimirOtrosNumeros(14,5))
+imprimirOtrosNumeros(2,5)
 
 // Ejercicios array
 
