@@ -44,9 +44,9 @@ function censurarTexto(frase,listaPalabrasCensuradas){
     		for (j=0;j<listaPalabrasCensuradas[i].length;j++){
     			caracteres=caracteres+'*'
     		}
-
+                while (fraseCensurada.includes(listaPalabrasCensuradas[i])) {
     		fraseCensurada=fraseCensurada.replace(listaPalabrasCensuradas[i],caracteres)
-
+		}
     	}
 
     }
